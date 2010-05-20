@@ -7,6 +7,7 @@ class TestGmallardTestHw01 < Test::Unit::TestCase
   end
   #
   def teardown
+    @app = nil
   end
   #
   def test_result
