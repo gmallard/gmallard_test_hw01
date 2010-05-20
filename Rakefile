@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "gmallard_test_hw01"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A short test hello world gem.}
+    gem.description = %Q{A test gem destined for gemcutter.org.}
     gem.email = "allard.guy.m@gmail.com"
     gem.homepage = "http://github.com/gmallard/gmallard_test_hw01"
     gem.authors = ["gmallard"]
