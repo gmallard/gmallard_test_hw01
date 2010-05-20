@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{gmallard_test_hw01}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["gmallard"]
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "gmallard_test_hw01.gemspec",
      "lib/gmallard_test_hw01.rb",
      "test/helper.rb",
      "test/test_gmallard_test_hw01.rb"
