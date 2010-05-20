@@ -1,7 +1,16 @@
 require 'helper'
 
 class TestGmallardTestHw01 < Test::Unit::TestCase
-  def test_something_for_real
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  #
+  def setup
+    @app = GTHMain.new
+  end
+  #
+  def teardown
+  end
+  #
+  def test_result
+    assert_not_nil @app
+    assert_equal @app.hello, "Hello World"
   end
 end
