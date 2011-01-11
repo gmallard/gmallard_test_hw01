@@ -11,6 +11,10 @@ begin
     gem.homepage = "http://github.com/gmallard/gmallard_test_hw01"
     gem.authors = ["gmallard"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+		gem.files = [ "README.rdoc", "LICENSE", "Rakefile", "VERSION" ]
+		gem.files += Dir['lib/**/*.rb']
+		gem.files += Dir['test/**/*.rb']
+		gem.files.reject! { |fn| fn.include? ".gitignore" }
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
