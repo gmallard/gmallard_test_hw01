@@ -1,4 +1,9 @@
-require 'helper'
+if RUBY_VERSION =~ /1\.9/
+	require_relative 'helper'
+else
+	$:.unshift(File.dirname(__FILE__))
+	require 'helper'
+end
 
 class TestGmallardTestHw01 < Test::Unit::TestCase
   #
